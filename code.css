@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+
+    background-position: center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    min-height: 100vh; 
+
+    
+
+}
+
+.logo{
+    color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    top: 1em;
+    position: absolute;
+    left: 1em;
+    margin: 0;
+
+
+}
+
+nav h2{
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(16, 97, 8);
+    padding: 3em;
+
+
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    border-radius: 3em;
+    width: 5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+nav :hover{
+    color: rgb(8, 98, 188);
+    
+    
+
+}
