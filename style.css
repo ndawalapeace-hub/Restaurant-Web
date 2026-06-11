@@ -1,0 +1,20 @@
+.left{
+    padding: 3em;
+    float: left;
+    background-color: aqua;
+}
+
+
+#main-image img{
+    width: em;
+    height: 30em;
+}
+
+.sub-images{
+    float: left;
+}
+
+.sub-images img{
+    height: 8em;
+    padding: em;
+}
